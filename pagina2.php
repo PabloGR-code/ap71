@@ -1,11 +1,11 @@
 <?php
 
-    session_start()
+    session_start();
 
     if(isset($_SESSION['color'])){
         $color=$_SESSION['color'];
     }else{
-        $color='#ffffff'
+        $color='#ffffff';
     }
 
 ?>

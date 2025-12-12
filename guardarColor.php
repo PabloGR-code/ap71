@@ -4,5 +4,5 @@
 
     $_SESSION['color'] = $_POST['color'];
 
-    header('Location: index.php')
+    header('Location: index.php');
     exit();

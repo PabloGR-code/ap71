@@ -5,7 +5,7 @@
     if(isset($_SESSION['color'])){
         $color=$_SESSION['color'];
     }else{
-        $color='#ffffff'
+        $color='#ffffff';
     }
 
 ?>
